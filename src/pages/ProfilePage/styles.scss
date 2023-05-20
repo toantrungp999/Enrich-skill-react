@@ -1,0 +1,28 @@
+.mock-profile-page {
+  .MuiFormLabel-root {
+    color: var(--search-text);
+    opacity: 0.8;
+  }
+
+  .MuiInputBase-root.Mui-disabled {
+    background: hsla(0, 0%, 100%, 0.3);
+    color: #fff;
+
+    input {
+      cursor: not-allowed;
+    }
+  }
+
+  .MuiInputBase-root {
+    border-radius: 20px;
+    background-color: var(--alpha-bg);
+    font-size: 14px;
+    color: var(--search-text);
+    color-scheme: dark;
+  }
+
+  .MuiButtonBase-root {
+    text-transform: capitalize;
+    color: var(--search-text);
+  }
+}

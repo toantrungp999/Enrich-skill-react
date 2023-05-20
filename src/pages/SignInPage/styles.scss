@@ -1,0 +1,34 @@
+.mock-sign-in-page {
+  .MuiFormLabel-root {
+    color: var(--search-text);
+    opacity: 0.8;
+  }
+
+  .MuiButtonBase-root {
+    text-transform: capitalize;
+    color: var(--search-text);
+  }
+
+  .MuiInputBase-root {
+    border-radius: 20px;
+    background-color: var(--alpha-bg);
+    font-size: 14px;
+    color: var(--search-text);
+    color-scheme: dark;
+  }
+
+  // .MuiButtonBase-root &__sign-in-btn {
+  //     width: 100%;
+  //     height: 40px;
+  //     font-size: 12px;
+  //     font-weight: 600;
+  //     border-radius: 24px;
+  //     color: var(--white);
+  //     background-color: var(--purple-primary);
+  //     margin: 8px 0 16px 0;
+
+  //     &:hover {
+  //         background-color: #a35de1;
+  //     }
+  // }
+}

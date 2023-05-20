@@ -1,0 +1,15 @@
+.MuiFormLabel-root {
+  color: var(--search-text);
+  opacity: 0.8;
+}
+
+.MuiTypography-root {
+  color: var(--search-text);
+}
+
+.MuiInputBase-root {
+  border-radius: 20px;
+  background-color: var(--alpha-bg);
+  font-size: 14px;
+  color: var(--search-text);
+}

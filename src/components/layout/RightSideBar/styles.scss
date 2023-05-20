@@ -1,0 +1,9 @@
+.mock-right-sidebar {
+  width: 330px;
+  height: 100vh;
+  border-left: 1px solid var(--border-primary);
+
+  @media screen and (max-width: 1590px) {
+    width: 0;
+  }
+}

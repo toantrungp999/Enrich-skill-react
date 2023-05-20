@@ -1,0 +1,29 @@
+.mock-button-tabs {
+  &__tab-select {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__tab-btn {
+    padding: 4px 24px;
+    border: 1px solid var(--border-primary);
+    color: var(--white);
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+
+    &--active {
+      border-color: var(--purple-primary);
+      background-color: var(--purple-primary);
+    }
+  }
+}

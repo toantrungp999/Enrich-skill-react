@@ -1,0 +1,18 @@
+.mock-search-input {
+  width: 100%;
+  max-width: 540px;
+
+  .MuiInputBase-root {
+    border-radius: 20px;
+    height: 40px;
+    background-color: var(--alpha-bg);
+    width: 95%;
+    font-size: 14px;
+    color: var(--search-text);
+  }
+
+  .MuiSvgIcon-root {
+    color: var(--search-text);
+    cursor: pointer;
+  }
+}

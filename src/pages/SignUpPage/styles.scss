@@ -1,0 +1,19 @@
+.mock-sign-up-page {
+  .MuiFormLabel-root {
+    color: var(--search-text);
+    opacity: 0.8;
+  }
+
+  .MuiInputBase-root {
+    border-radius: 20px;
+    background-color: var(--alpha-bg);
+    font-size: 14px;
+    color: var(--search-text);
+    color-scheme: dark;
+  }
+
+  .MuiButtonBase-root {
+    text-transform: capitalize;
+    color: var(--search-text);
+  }
+}

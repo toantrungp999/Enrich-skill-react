@@ -1,0 +1,21 @@
+.mock-gallery-section {
+  &__card {
+    min-width: 267px;
+    height: 150px;
+    min-height: 150px;
+    transition: transform 0.7s;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .slick-track {
+    &::before {
+      display: none;
+    }
+
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 1.5rem;
+  }
+}

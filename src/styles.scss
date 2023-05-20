@@ -1,0 +1,98 @@
+@import 'assets/styles/index.scss';
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 81px;
+}
+
+::-webkit-scrollbar-button {
+  background: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-bg);
+  border-radius: 2px;
+}
+
+​ html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: 12px;
+  background-color: var(--container-color);
+  display: flex;
+  line-height: 1.5;
+  font-size: 14px;
+  color: var(--text-primary);
+  font-weight: 400;
+}
+
+#root {
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mock-main {
+  position: relative;
+  min-height: 100vh;
+  width: calc(100% - 240px - 330px);
+  padding: 0 var(--padding-section);
+  overflow-y: overlay;
+}
+
+@media screen and (max-width: 1590px) {
+  .mock-main {
+    width: calc(100% - 240px);
+  }
+}
+
+@media screen and (max-width: 1133px) {
+  .mock-main {
+    width: calc(100% - 70px);
+  }
+}

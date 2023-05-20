@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "src"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
